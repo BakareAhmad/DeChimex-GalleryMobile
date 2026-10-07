@@ -1,0 +1,402 @@
+ok 01 - /img/hero.webp: 200 image/webp, 1536x1024 RGBA (true alpha), transparent corners
+ok 02 - /img/hero-768.webp: 200 image/webp, 768x512 RGBA (true alpha), transparent corners
+ok 03 - /img/hero-mobile.webp: 200 image/webp, 800x1093 RGBA (true alpha), transparent corners
+ok 04 - /img/hero.png: 200 image/png, 1536x1024 RGBA (true alpha), transparent corners
+ok 05 - /img/hero-768.png: 200 image/png, 768x512 RGBA (true alpha), transparent corners
+ok 06 - /img/hero-mobile.png: 200 image/png, 800x1093 RGBA (true alpha), transparent corners
+ok 07 - /img/hero.webp: products solid (51% fully opaque), soft alpha edges + the subject's own shadows kept (3.5% partial alpha), background clear (45% fully transparent)
+ok 08 - /img/hero.webp: the lavender ring behind the products is kept (83,955 ring-coloured pixels)
+ok 09 - /img/hero.webp: nothing opaque along the top edge (no baked rectangle / crop line)
+ok 10 - /img/hero-mobile.webp: products solid (62% fully opaque), soft alpha edges + the subject's own shadows kept (2.8% partial alpha), background clear (36% fully transparent)
+ok 11 - /img/hero-mobile.webp: the lavender ring behind the products is kept (51,964 ring-coloured pixels)
+ok 12 - /img/hero-mobile.webp: nothing opaque along the top edge (no baked rectangle / crop line)
+ok 13 - /img/hero.jpg: flattened JPG fallback removed (404) — a JPG cannot carry transparency
+ok 14 - /img/hero-768.jpg: flattened JPG fallback removed (404) — a JPG cannot carry transparency
+ok 15 - hero copy: kicker, H1, lead naming both ordering paths, CTAs (rewritten copy, no filler)
+ok 16 - no search box in the hero (search lives in the header)
+ok 17 - metrics show the owner's figures and labels
+ok 18 - home @320px: no horizontal scroll (320 <= 320), page background rgb(247, 246, 242)
+ok 19 - home @320px: two columns — copy left (16-156), art right (164-304), side by side
+ok 20 - home @320px: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 21 - home @320px: art shown whole — ratio 0.732 == 0.732, inside the viewport (164-304), no clipping ancestor
+ok 22 - home @320px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 23 - home @320px: text stacks above the art (copy z-index 1)
+ok 24 - home @320px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 25 - home @320px: kicker inside the viewport (16-242 of 320)
+ok 26 - home @320px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 27 - home @320px: portrait art positioned below kicker pill (art top 107 >= kicker bottom 103)
+ok 28 - home @320px: CTAs stacked, full column width (140px), arrows at the end
+ok 29 - home @320px: 3 metrics as stacked shadow cards
+ok 30 - home @320px: no broken images
+ok 31 - home @320px: no box/halo behind the art — 3,920 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 32 - home @320px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 01-hero-restored-320px-viewport.png
+ok 33 - home @360px: no horizontal scroll (360 <= 360), page background rgb(247, 246, 242)
+ok 34 - home @360px: two columns — copy left (24-171), art right (177-336), side by side
+ok 35 - home @360px: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 36 - home @360px: art shown whole — ratio 0.732 == 0.732, inside the viewport (177-336), no clipping ancestor
+ok 37 - home @360px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 38 - home @360px: text stacks above the art (copy z-index 1)
+ok 39 - home @360px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 40 - home @360px: kicker inside the viewport (24-250 of 360)
+ok 41 - home @360px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 42 - home @360px: portrait art positioned below kicker pill (art top 107 >= kicker bottom 103)
+ok 43 - home @360px: CTAs stacked, full column width (147px), arrows at the end
+ok 44 - home @360px: 3 metrics as stacked shadow cards
+ok 45 - home @360px: no broken images
+ok 46 - home @360px: no box/halo behind the art — 5,542 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 47 - home @360px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 02-hero-vs-reference-360px.png
+ok 48 - home @390px: no horizontal scroll (390 <= 390), page background rgb(247, 246, 242)
+ok 49 - home @390px: two columns — copy left (24-185), art right (191-366), side by side
+ok 50 - home @390px: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 51 - home @390px: art shown whole — ratio 0.732 == 0.732, inside the viewport (191-366), no clipping ancestor
+ok 52 - home @390px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 53 - home @390px: text stacks above the art (copy z-index 1)
+ok 54 - home @390px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 55 - home @390px: kicker inside the viewport (24-281 of 390)
+ok 56 - home @390px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 57 - home @390px: portrait art positioned below kicker pill (art top 109 >= kicker bottom 106)
+ok 58 - home @390px: CTAs stacked, full column width (161px), arrows at the end
+ok 59 - home @390px: 3 metrics as stacked shadow cards
+ok 60 - home @390px: no broken images
+ok 61 - home @390px: no box/halo behind the art — 7,132 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 62 - home @390px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 03-hero-vs-reference-390px.png
+ok 63 - home @640px: no horizontal scroll (640 <= 640), page background rgb(247, 246, 242)
+ok 64 - home @640px: two columns — copy left (24-269), art right (285-616), side by side
+ok 65 - home @640px: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 66 - home @640px: art shown whole — ratio 0.732 == 0.732, inside the viewport (339-582), no clipping ancestor
+ok 67 - home @640px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 68 - home @640px: text stacks above the art (copy z-index 1)
+ok 69 - home @640px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 70 - home @640px: kicker inside the viewport (24-289 of 640)
+ok 71 - home @640px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 72 - home @640px: portrait art positioned below kicker pill (art top 111 >= kicker bottom 109)
+ok 73 - home @640px: large-mobile portrait art capped (243px <= 246px) with right breathing room (58px)
+ok 74 - home @640px: CTAs stacked, full column width (245px), arrows at the end
+ok 75 - home @640px: 3 metrics as stacked shadow cards
+ok 76 - home @640px: no broken images
+ok 77 - home @640px: no box/halo behind the art — 16,800 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 78 - home @640px: page colour just outside the image box (12 points, e.g. (247, 246, 242)) — no card edge
+shot 04-hero-vs-reference-640px.png
+ok 79 - home @768px: no horizontal scroll (768 <= 768), page background rgb(247, 246, 242)
+ok 80 - home @768px: two columns — copy left (16-266), art right (240-752), side by side
+ok 81 - home @768px: hero-768.webp served (portrait <=720, landscape above), decoded 552x368
+ok 82 - home @768px: art shown whole — ratio 1.500 == 1.500, inside the viewport (240-752), no clipping ancestor
+ok 83 - home @768px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 84 - home @768px: text stacks above the art (copy z-index 1)
+ok 85 - home @768px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 86 - home @768px: kicker inside the viewport (16-283 of 768)
+ok 87 - home @768px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 88 - home @768px: landscape art respects container right gutter (16px >= 14px)
+ok 89 - home @768px: CTAs stacked as in the 768/1024/1200 references
+ok 90 - home @768px: 3 metrics in one white band with dividers, below the art
+ok 91 - home @768px: no broken images
+ok 92 - home @768px: no box/halo behind the art — 54,143 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 93 - home @768px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 05-hero-vs-reference-768px.png
+ok 94 - home @1024px: no horizontal scroll (1024 <= 1024), page background rgb(247, 246, 242)
+ok 95 - home @1024px: two columns — copy left (20-355), art right (342-1004), side by side
+ok 96 - home @1024px: hero-768.webp served (portrait <=720, landscape above), decoded 757x505
+ok 97 - home @1024px: art shown whole — ratio 1.500 == 1.500, inside the viewport (342-1004), no clipping ancestor
+ok 98 - home @1024px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 99 - home @1024px: text stacks above the art (copy z-index 1)
+ok 100 - home @1024px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 101 - home @1024px: kicker inside the viewport (20-287 of 1024)
+ok 102 - home @1024px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 103 - home @1024px: landscape art respects container right gutter (20px >= 14px)
+ok 104 - home @1024px: CTAs stacked as in the 768/1024/1200 references
+ok 105 - home @1024px: 3 metrics in one white band with dividers, below the art
+ok 106 - home @1024px: no broken images
+ok 107 - home @1024px: no box/halo behind the art — 105,603 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 108 - home @1024px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 06-hero-vs-reference-1024px.png
+ok 109 - home @1200px: no horizontal scroll (1200 <= 1200), page background rgb(247, 246, 242)
+ok 110 - home @1200px: two columns — copy left (108-450), art right (436-1113), side by side
+ok 111 - home @1200px: hero.webp served (portrait <=720, landscape above), decoded 888x592
+ok 112 - home @1200px: art shown whole — ratio 1.500 == 1.500, inside the viewport (436-1113), no clipping ancestor
+ok 113 - home @1200px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 114 - home @1200px: text stacks above the art (copy z-index 1)
+ok 115 - home @1200px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 116 - home @1200px: kicker inside the viewport (108-375 of 1200)
+ok 117 - home @1200px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 118 - home @1200px: landscape art respects container right gutter (87px >= 14px)
+ok 119 - home @1200px: CTAs stacked as in the 768/1024/1200 references
+ok 120 - home @1200px: 3 metrics in one white band with dividers, below the art
+ok 121 - home @1200px: no broken images
+ok 122 - home @1200px: no box/halo behind the art — 113,109 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 123 - home @1200px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 07-hero-vs-reference-1200px.png
+ok 124 - home @1440px: no horizontal scroll (1440 <= 1440), page background rgb(247, 246, 242)
+ok 125 - home @1440px: two columns — copy left (128-496), art right (466-1352), side by side
+ok 126 - home @1440px: hero.webp served (portrait <=720, landscape above), decoded 880x586
+ok 127 - home @1440px: art shown whole — ratio 1.500 == 1.500, inside the viewport (466-1352), no clipping ancestor
+ok 128 - home @1440px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 129 - home @1440px: text stacks above the art (copy z-index 1)
+ok 130 - home @1440px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 131 - home @1440px: kicker inside the viewport (128-395 of 1440)
+ok 132 - home @1440px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 133 - home @1440px: landscape art respects container right gutter (88px >= 14px)
+ok 134 - home @1440px: CTAs side by side as in the 1440/1920 references
+ok 135 - home @1440px: 3 metrics in one white band with dividers, below the art
+ok 136 - home @1440px: no broken images
+ok 137 - home @1440px: no box/halo behind the art — 200,038 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 138 - home @1440px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 08-hero-vs-reference-1440px.png
+ok 139 - home @1920px: no horizontal scroll (1920 <= 1920), page background rgb(247, 246, 242)
+ok 140 - home @1920px: two columns — copy left (238-677), art right (641-1700), side by side
+ok 141 - home @1920px: hero.webp served (portrait <=720, landscape above), decoded 880x586
+ok 142 - home @1920px: art shown whole — ratio 1.500 == 1.500, inside the viewport (660-1700), no clipping ancestor
+ok 143 - home @1920px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 144 - home @1920px: text stacks above the art (copy z-index 1)
+ok 145 - home @1920px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 146 - home @1920px: kicker inside the viewport (238-505 of 1920)
+ok 147 - home @1920px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 148 - home @1920px: landscape art respects container right gutter (220px >= 14px)
+ok 149 - home @1920px: CTAs side by side as in the 1440/1920 references
+ok 150 - home @1920px: 3 metrics in one white band with dividers, below the art
+ok 151 - home @1920px: no broken images
+ok 152 - home @1920px: no box/halo behind the art — 289,732 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 153 - home @1920px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 09-hero-vs-reference-1920px.png
+ok 154 - checkpoint @375x812: no horizontal scroll (375 <= 375), page background rgb(247, 246, 242)
+ok 155 - checkpoint @375x812: two columns — copy left (24-178), art right (184-351), side by side
+ok 156 - checkpoint @375x812: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 157 - checkpoint @375x812: art shown whole — ratio 0.732 == 0.732, inside the viewport (184-351), no clipping ancestor
+ok 158 - checkpoint @375x812: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 159 - checkpoint @375x812: text stacks above the art (copy z-index 1)
+ok 160 - checkpoint @375x812: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 161 - checkpoint @375x812: kicker inside the viewport (24-250 of 375)
+ok 162 - checkpoint @375x812: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 163 - checkpoint @375x812: portrait art positioned below kicker pill (art top 107 >= kicker bottom 103)
+ok 164 - checkpoint @375x812: CTAs stacked, full column width (154px), arrows at the end
+ok 165 - checkpoint @375x812: 3 metrics as stacked shadow cards
+ok 166 - checkpoint @375x812: no broken images
+ok 167 - checkpoint @414x896: no horizontal scroll (414 <= 414), page background rgb(247, 246, 242)
+ok 168 - checkpoint @414x896: two columns — copy left (24-197), art right (203-390), side by side
+ok 169 - checkpoint @414x896: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 170 - checkpoint @414x896: art shown whole — ratio 0.732 == 0.732, inside the viewport (203-390), no clipping ancestor
+ok 171 - checkpoint @414x896: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 172 - checkpoint @414x896: text stacks above the art (copy z-index 1)
+ok 173 - checkpoint @414x896: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 174 - checkpoint @414x896: kicker inside the viewport (24-281 of 414)
+ok 175 - checkpoint @414x896: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 176 - checkpoint @414x896: portrait art positioned below kicker pill (art top 109 >= kicker bottom 106)
+ok 177 - checkpoint @414x896: CTAs stacked, full column width (173px), arrows at the end
+ok 178 - checkpoint @414x896: 3 metrics as stacked shadow cards
+ok 179 - checkpoint @414x896: no broken images
+ok 180 - checkpoint @430x932: no horizontal scroll (430 <= 430), page background rgb(247, 246, 242)
+ok 181 - checkpoint @430x932: two columns — copy left (24-204), art right (210-406), side by side
+ok 182 - checkpoint @430x932: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 183 - checkpoint @430x932: art shown whole — ratio 0.732 == 0.732, inside the viewport (210-406), no clipping ancestor
+ok 184 - checkpoint @430x932: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 185 - checkpoint @430x932: text stacks above the art (copy z-index 1)
+ok 186 - checkpoint @430x932: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 187 - checkpoint @430x932: kicker inside the viewport (24-281 of 430)
+ok 188 - checkpoint @430x932: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 189 - checkpoint @430x932: portrait art positioned below kicker pill (art top 109 >= kicker bottom 106)
+ok 190 - checkpoint @430x932: CTAs stacked, full column width (180px), arrows at the end
+ok 191 - checkpoint @430x932: 3 metrics as stacked shadow cards
+ok 192 - checkpoint @430x932: no broken images
+ok 193 - checkpoint @720x900: no horizontal scroll (720 <= 720), page background rgb(247, 246, 242)
+ok 194 - checkpoint @720x900: two columns — copy left (24-303), art right (319-696), side by side
+ok 195 - checkpoint @720x900: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 196 - checkpoint @720x900: art shown whole — ratio 0.732 == 0.732, inside the viewport (417-660), no clipping ancestor
+ok 197 - checkpoint @720x900: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 198 - checkpoint @720x900: text stacks above the art (copy z-index 1)
+ok 199 - checkpoint @720x900: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 200 - checkpoint @720x900: kicker inside the viewport (24-289 of 720)
+ok 201 - checkpoint @720x900: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 202 - checkpoint @720x900: portrait art positioned below kicker pill (art top 111 >= kicker bottom 109)
+ok 203 - checkpoint @720x900: large-mobile portrait art capped (243px <= 246px) with right breathing room (60px)
+ok 204 - checkpoint @720x900: CTAs stacked, full column width (279px), arrows at the end
+ok 205 - checkpoint @720x900: 3 metrics as stacked shadow cards
+ok 206 - checkpoint @720x900: no broken images
+ok 207 - checkpoint @721x900: no horizontal scroll (721 <= 721), page background rgb(247, 246, 242)
+ok 208 - checkpoint @721x900: two columns — copy left (16-250), art right (225-705), side by side
+ok 209 - checkpoint @721x900: hero-768.webp served (portrait <=720, landscape above), decoded 519x346
+ok 210 - checkpoint @721x900: art shown whole — ratio 1.500 == 1.500, inside the viewport (225-705), no clipping ancestor
+ok 211 - checkpoint @721x900: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 212 - checkpoint @721x900: text stacks above the art (copy z-index 1)
+ok 213 - checkpoint @721x900: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 214 - checkpoint @721x900: kicker inside the viewport (16-283 of 721)
+ok 215 - checkpoint @721x900: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 216 - checkpoint @721x900: landscape art respects container right gutter (16px >= 14px)
+ok 217 - checkpoint @721x900: CTAs stacked as in the 768/1024/1200 references
+ok 218 - checkpoint @721x900: 3 metrics in one white band with dividers, below the art
+ok 219 - checkpoint @721x900: no broken images
+ok 220 - checkpoint @767x1024: no horizontal scroll (767 <= 767), page background rgb(247, 246, 242)
+ok 221 - checkpoint @767x1024: two columns — copy left (16-266), art right (239-751), side by side
+ok 222 - checkpoint @767x1024: hero-768.webp served (portrait <=720, landscape above), decoded 552x368
+ok 223 - checkpoint @767x1024: art shown whole — ratio 1.500 == 1.500, inside the viewport (239-751), no clipping ancestor
+ok 224 - checkpoint @767x1024: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 225 - checkpoint @767x1024: text stacks above the art (copy z-index 1)
+ok 226 - checkpoint @767x1024: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 227 - checkpoint @767x1024: kicker inside the viewport (16-283 of 767)
+ok 228 - checkpoint @767x1024: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 229 - checkpoint @767x1024: landscape art respects container right gutter (16px >= 14px)
+ok 230 - checkpoint @767x1024: CTAs stacked as in the 768/1024/1200 references
+ok 231 - checkpoint @767x1024: 3 metrics in one white band with dividers, below the art
+ok 232 - checkpoint @767x1024: no broken images
+ok 233 - checkpoint @769x1024: no horizontal scroll (769 <= 769), page background rgb(247, 246, 242)
+ok 234 - checkpoint @769x1024: two columns — copy left (16-267), art right (240-753), side by side
+ok 235 - checkpoint @769x1024: hero-768.webp served (portrait <=720, landscape above), decoded 553x369
+ok 236 - checkpoint @769x1024: art shown whole — ratio 1.500 == 1.500, inside the viewport (240-753), no clipping ancestor
+ok 237 - checkpoint @769x1024: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 238 - checkpoint @769x1024: text stacks above the art (copy z-index 1)
+ok 239 - checkpoint @769x1024: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 240 - checkpoint @769x1024: kicker inside the viewport (16-283 of 769)
+ok 241 - checkpoint @769x1024: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 242 - checkpoint @769x1024: landscape art respects container right gutter (16px >= 14px)
+ok 243 - checkpoint @769x1024: CTAs stacked as in the 768/1024/1200 references
+ok 244 - checkpoint @769x1024: 3 metrics in one white band with dividers, below the art
+ok 245 - checkpoint @769x1024: no broken images
+ok 246 - checkpoint @900x800: no horizontal scroll (900 <= 900), page background rgb(247, 246, 242)
+ok 247 - checkpoint @900x800: two columns — copy left (16-311), art right (281-884), side by side
+ok 248 - checkpoint @900x800: hero-768.webp served (portrait <=720, landscape above), decoded 648x432
+ok 249 - checkpoint @900x800: art shown whole — ratio 1.500 == 1.500, inside the viewport (281-884), no clipping ancestor
+ok 250 - checkpoint @900x800: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 251 - checkpoint @900x800: text stacks above the art (copy z-index 1)
+ok 252 - checkpoint @900x800: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 253 - checkpoint @900x800: kicker inside the viewport (16-283 of 900)
+ok 254 - checkpoint @900x800: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 255 - checkpoint @900x800: landscape art respects container right gutter (16px >= 14px)
+ok 256 - checkpoint @900x800: CTAs stacked as in the 768/1024/1200 references
+ok 257 - checkpoint @900x800: 3 metrics in one white band with dividers, below the art
+ok 258 - checkpoint @900x800: no broken images
+ok 259 - checkpoint @1023x768: no horizontal scroll (1023 <= 1023), page background rgb(247, 246, 242)
+ok 260 - checkpoint @1023x768: two columns — copy left (20-354), art right (322-1003), side by side
+ok 261 - checkpoint @1023x768: hero-768.webp served (portrait <=720, landscape above), decoded 736x491
+ok 262 - checkpoint @1023x768: art shown whole — ratio 1.500 == 1.500, inside the viewport (322-1003), no clipping ancestor
+ok 263 - checkpoint @1023x768: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 264 - checkpoint @1023x768: text stacks above the art (copy z-index 1)
+ok 265 - checkpoint @1023x768: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 266 - checkpoint @1023x768: kicker inside the viewport (20-287 of 1023)
+ok 267 - checkpoint @1023x768: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 268 - checkpoint @1023x768: landscape art respects container right gutter (20px >= 14px)
+ok 269 - checkpoint @1023x768: CTAs stacked as in the 768/1024/1200 references
+ok 270 - checkpoint @1023x768: 3 metrics in one white band with dividers, below the art
+ok 271 - checkpoint @1023x768: no broken images
+ok 272 - checkpoint @1025x768: no horizontal scroll (1025 <= 1025), page background rgb(247, 246, 242)
+ok 273 - checkpoint @1025x768: two columns — copy left (20-355), art right (342-1005), side by side
+ok 274 - checkpoint @1025x768: hero-768.webp served (portrait <=720, landscape above), decoded 758x505
+ok 275 - checkpoint @1025x768: art shown whole — ratio 1.500 == 1.500, inside the viewport (342-1005), no clipping ancestor
+ok 276 - checkpoint @1025x768: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 277 - checkpoint @1025x768: text stacks above the art (copy z-index 1)
+ok 278 - checkpoint @1025x768: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 279 - checkpoint @1025x768: kicker inside the viewport (20-288 of 1025)
+ok 280 - checkpoint @1025x768: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 281 - checkpoint @1025x768: landscape art respects container right gutter (20px >= 14px)
+ok 282 - checkpoint @1025x768: CTAs stacked as in the 768/1024/1200 references
+ok 283 - checkpoint @1025x768: 3 metrics in one white band with dividers, below the art
+ok 284 - checkpoint @1025x768: no broken images
+ok 285 - checkpoint @1280x800: no horizontal scroll (1280 <= 1280), page background rgb(247, 246, 242)
+ok 286 - checkpoint @1280x800: two columns — copy left (119-484), art right (469-1192), side by side
+ok 287 - checkpoint @1280x800: hero.webp served (portrait <=720, landscape above), decoded 947x631
+ok 288 - checkpoint @1280x800: art shown whole — ratio 1.500 == 1.500, inside the viewport (469-1192), no clipping ancestor
+ok 289 - checkpoint @1280x800: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 290 - checkpoint @1280x800: text stacks above the art (copy z-index 1)
+ok 291 - checkpoint @1280x800: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 292 - checkpoint @1280x800: kicker inside the viewport (119-386 of 1280)
+ok 293 - checkpoint @1280x800: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 294 - checkpoint @1280x800: landscape art respects container right gutter (88px >= 14px)
+ok 295 - checkpoint @1280x800: CTAs stacked as in the 768/1024/1200 references
+ok 296 - checkpoint @1280x800: 3 metrics in one white band with dividers, below the art
+ok 297 - checkpoint @1280x800: no broken images
+ok 298 - checkpoint @1366x768: no horizontal scroll (1366 <= 1366), page background rgb(247, 246, 242)
+ok 299 - checkpoint @1366x768: two columns — copy left (128-519), art right (504-1278), side by side
+ok 300 - checkpoint @1366x768: hero.webp served (portrait <=720, landscape above), decoded 880x586
+ok 301 - checkpoint @1366x768: art shown whole — ratio 1.500 == 1.500, inside the viewport (504-1278), no clipping ancestor
+ok 302 - checkpoint @1366x768: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 303 - checkpoint @1366x768: text stacks above the art (copy z-index 1)
+ok 304 - checkpoint @1366x768: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 305 - checkpoint @1366x768: kicker inside the viewport (128-395 of 1366)
+ok 306 - checkpoint @1366x768: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 307 - checkpoint @1366x768: landscape art respects container right gutter (88px >= 14px)
+ok 308 - checkpoint @1366x768: CTAs stacked as in the 768/1024/1200 references
+ok 309 - checkpoint @1366x768: 3 metrics in one white band with dividers, below the art
+ok 310 - checkpoint @1366x768: no broken images
+ok 311 - checkpoint @1366x768: 3-column metrics band fits above the 768px laptop fold
+ok 312 - checkpoint @1399x900: no horizontal scroll (1399 <= 1399), page background rgb(247, 246, 242)
+ok 313 - checkpoint @1399x900: two columns — copy left (128-530), art right (515-1311), side by side
+ok 314 - checkpoint @1399x900: hero.webp served (portrait <=720, landscape above), decoded 880x586
+ok 315 - checkpoint @1399x900: art shown whole — ratio 1.500 == 1.500, inside the viewport (515-1311), no clipping ancestor
+ok 316 - checkpoint @1399x900: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 317 - checkpoint @1399x900: text stacks above the art (copy z-index 1)
+ok 318 - checkpoint @1399x900: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 319 - checkpoint @1399x900: kicker inside the viewport (128-395 of 1399)
+ok 320 - checkpoint @1399x900: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 321 - checkpoint @1399x900: landscape art respects container right gutter (88px >= 14px)
+ok 322 - checkpoint @1399x900: CTAs stacked as in the 768/1024/1200 references
+ok 323 - checkpoint @1399x900: 3 metrics in one white band with dividers, below the art
+ok 324 - checkpoint @1399x900: no broken images
+ok 325 - checkpoint @1400x900: no horizontal scroll (1400 <= 1400), page background rgb(247, 246, 242)
+ok 326 - checkpoint @1400x900: two columns — copy left (128-496), art right (467-1312), side by side
+ok 327 - checkpoint @1400x900: hero.webp served (portrait <=720, landscape above), decoded 880x586
+ok 328 - checkpoint @1400x900: art shown whole — ratio 1.500 == 1.500, inside the viewport (467-1312), no clipping ancestor
+ok 329 - checkpoint @1400x900: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 330 - checkpoint @1400x900: text stacks above the art (copy z-index 1)
+ok 331 - checkpoint @1400x900: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 332 - checkpoint @1400x900: kicker inside the viewport (128-395 of 1400)
+ok 333 - checkpoint @1400x900: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 334 - checkpoint @1400x900: landscape art respects container right gutter (88px >= 14px)
+ok 335 - checkpoint @1400x900: CTAs side by side as in the 1440/1920 references
+ok 336 - checkpoint @1400x900: 3 metrics in one white band with dividers, below the art
+ok 337 - checkpoint @1400x900: no broken images
+ok 338 - PNG fallback @390px: browser without WebP loads hero-mobile.png
+ok 339 - PNG fallback @390px: served HTML carries no WebP source
+ok 340 - PNG fallback @390px: no box/halo behind the art — 7,132 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 341 - PNG fallback @390px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+ok 342 - PNG fallback @1440px: browser without WebP loads hero.png
+ok 343 - PNG fallback @1440px: served HTML carries no WebP source
+ok 344 - PNG fallback @1440px: no box/halo behind the art — 200,038 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 345 - PNG fallback @1440px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 10-home-hero-png-fallback-1440px.png
+shot 11-home-full-page-1440px.png
+ok 346 - 'Shop products' CTA (real mouse click, art never intercepts) opens the catalogue
+ok 347 - 'Explore services' CTA opens services
+ok 348 - keyboard: Tab moves from 'Shop products' to 'Explore services'
+ok 349 - keyboard: Enter on 'Explore services' navigates
+ok 350 - header navigation still works from home (About)
+ok 351 - owner logged in
+ok 352 - search fixture created through the admin UI: 'Hero Mug keysfihr' in 'Hero Search keysfihr'
+ok 353 - desktop: header search box visible, mobile search icon hidden
+ok 354 - desktop header search 'Hero Mug keysfihr': results page lists the product (link /products/9eadd6e0-6ee9-491a-a85f-2b87975a4d49), term kept in the box
+shot 12-header-search-desktop-results.png
+ok 355 - search result opens the product page
+ok 356 - desktop header search with no match: friendly 'No matches' empty state (not an error)
+shot 13-header-search-desktop-no-match.png
+ok 357 - desktop header search, empty input: lists the catalogue (no error page)
+ok 358 - desktop header search with script-like input: escaped, no script ran, no error page
+shot 14-header-search-script-input-escaped.png
+ok 359 - mobile: search icon visible, desktop box hidden, panel closed
+ok 360 - mobile: the search icon opens the search panel (aria-expanded=true)
+shot 15-header-search-mobile-open.png
+ok 361 - mobile header search 'Hero Mug keysfihr': results page lists the product
+shot 16-header-search-mobile-results.png
+ok 362 - mobile: 'Explore services' CTA (real mouse click beside the art) opens services
+ok 363 - register hero -> verify page
+ok 364 - verification token captured for hero
+ok 365 - brevo api-key header present (value redacted in capture)
+ok 366 - customer hero signed in
+ok 367 - signed-in customer home: 'Shop products' CTA + both header search forms point at /portal/shop
+ok 368 - signed-in customer @390px: no horizontal scroll (390 <= 390), page background rgb(247, 246, 242)
+ok 369 - signed-in customer @390px: two columns — copy left (24-185), art right (191-366), side by side
+ok 370 - signed-in customer @390px: hero-mobile.webp served (portrait <=720, landscape above), decoded 800x1093
+ok 371 - signed-in customer @390px: art shown whole — ratio 0.732 == 0.732, inside the viewport (191-366), no clipping ancestor
+ok 372 - signed-in customer @390px: art has no box styling (transparent picture + img backgrounds, no shadow, no radius) and never takes clicks
+ok 373 - signed-in customer @390px: text stacks above the art (copy z-index 1)
+ok 374 - signed-in customer @390px: H1 'Your brand, / beautifully / produced.' on exactly 3 lines [1, 1, 1]
+ok 375 - signed-in customer @390px: kicker inside the viewport (24-281 of 390)
+ok 376 - signed-in customer @390px: CTAs 'Shop products' / 'Explore services' inside the copy column, no text overflow
+ok 377 - signed-in customer @390px: portrait art positioned below kicker pill (art top 109 >= kicker bottom 106)
+ok 378 - signed-in customer @390px: CTAs stacked, full column width (161px), arrows at the end
+ok 379 - signed-in customer @390px: 3 metrics as stacked shadow cards
+ok 380 - signed-in customer @390px: no broken images
+ok 381 - signed-in customer @390px: no box/halo behind the art — 7,132 transparent-art pixels checked, 0 differ from the page colour #F7F6F2
+ok 382 - signed-in customer @390px: page colour just outside the image box (10 points, e.g. (247, 246, 242)) — no card edge
+shot 17-customer-home-hero-390px.png
+ok 383 - no console errors, page errors, failed requests or 4xx/5xx sub-resources on any page visited (0)
+
+RESULT: 383 passed, 0 failed (TAG=keysfihr)

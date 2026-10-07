@@ -1,0 +1,20 @@
+[19:54:30 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5119/service-worker.js - null null
+[19:54:30 INF] Sending file. Request path: '/service-worker.js'. Physical path: '/home/user/DeChimexNotificationsFixed/EmailDesign/DeChimexPrints/src/DeChimex.Host/wwwroot/service-worker.js'
+[19:54:30 INF] HTTP GET /service-worker.js responded 200 in 0.2109 ms
+[19:54:30 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5119/service-worker.js - 200 null text/javascript 0.2898ms
+[19:54:30 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5119/offline.html - null null
+[19:54:30 INF] Sending file. Request path: '/offline.html'. Physical path: '/home/user/DeChimexNotificationsFixed/EmailDesign/DeChimexPrints/src/DeChimex.Host/wwwroot/offline.html'
+[19:54:30 INF] HTTP GET /offline.html responded 200 in 0.2153 ms
+[19:54:30 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5119/offline.html - 200 null text/html 0.298ms
+[19:54:30 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5119/img/icon-192.png - null null
+[19:54:30 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5119/img/icon-512.png - null null
+[19:54:30 INF] Sending file. Request path: '/img/icon-192.png'. Physical path: '/home/user/DeChimexNotificationsFixed/EmailDesign/DeChimexPrints/src/DeChimex.Host/wwwroot/img/icon-192.png'
+[19:54:30 INF] HTTP GET /img/icon-192.png responded 200 in 0.1517 ms
+[19:54:30 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5119/img/icon-192.png - 200 9081 image/png 0.2327ms
+[19:54:30 INF] Sending file. Request path: '/img/icon-512.png'. Physical path: '/home/user/DeChimexNotificationsFixed/EmailDesign/DeChimexPrints/src/DeChimex.Host/wwwroot/img/icon-512.png'
+[19:54:30 INF] HTTP GET /img/icon-512.png responded 200 in 0.1691 ms
+[19:54:30 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5119/img/icon-512.png - 200 36642 image/png 0.2554ms
+[19:54:32 INF] Request starting HTTP/1.1 GET http://127.0.0.1:5119/uploads/gallerymedia/65052f1593c2474cac240932801004e3.mp4 - null null
+[19:54:32 INF] Sending ["bytes 0-183087/183088"] of file /home/user/DeChimexNotificationsFixed/EmailDesign/DeChimexPrints/src/DeChimex.Host/wwwroot/uploads/gallerymedia/65052f1593c2474cac240932801004e3.mp4
+[19:54:32 INF] HTTP GET /uploads/gallerymedia/65052f1593c2474cac240932801004e3.mp4 responded 206 in 0.6188 ms
+[19:54:32 INF] Request finished HTTP/1.1 GET http://127.0.0.1:5119/uploads/gallerymedia/65052f1593c2474cac240932801004e3.mp4 - 206 183088 video/mp4 0.794ms

@@ -1,0 +1,8 @@
+total 11489
+drwxr-xr-x 2 user user      128 Oct  6 19:08 .
+drwxr-xr-x 3 user user      128 Oct  6 19:08 ..
+-rw-r--r-- 1 user user       21 Oct  6 19:53 bad.exe
+-rw-r--r-- 1 user user   183088 Oct  6 19:53 clip.mp4
+-rw-r--r-- 1 user user 11534336 Oct  6 19:53 huge.mp4
+-rw-r--r-- 1 user user    29965 Oct  6 19:53 shot-a.png
+-rw-r--r-- 1 user user     9081 Oct  6 19:53 shot-b.png

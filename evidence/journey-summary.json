@@ -1,0 +1,103 @@
+{
+  "public_desktop": {
+    "present": true,
+    "visible": true,
+    "display": "grid",
+    "items": 2,
+    "items_visible": 2,
+    "video_tiles": 1,
+    "box": {
+      "x": 124,
+      "y": 246.59375,
+      "width": 1192,
+      "height": 147.25
+    },
+    "h_overflow": false
+  },
+  "desktop_video": {
+    "found": true,
+    "readyState": 4,
+    "currentTime": 1.400885,
+    "paused": false,
+    "duration": 2,
+    "src": "8b21bd268713419b9ac2a73e1943f25a.mp4"
+  },
+  "public_mobile": {
+    "present": true,
+    "visible": true,
+    "display": "grid",
+    "items": 2,
+    "items_visible": 2,
+    "video_tiles": 1,
+    "box": {
+      "x": 16,
+      "y": 233.59375,
+      "width": 358,
+      "height": 118
+    },
+    "h_overflow": false
+  },
+  "mobile_video": {
+    "found": true,
+    "readyState": 4,
+    "currentTime": 1.404189,
+    "paused": false,
+    "duration": 2,
+    "src": "8b21bd268713419b9ac2a73e1943f25a.mp4"
+  },
+  "public_tablet": {
+    "present": true,
+    "visible": true,
+    "display": "grid",
+    "items": 2,
+    "items_visible": 2,
+    "video_tiles": 1,
+    "box": {
+      "x": 24,
+      "y": 211.09375,
+      "width": 720,
+      "height": 142.40625
+    },
+    "h_overflow": false
+  },
+  "resize_cycle": {
+    "wide": {
+      "visible": true,
+      "items_visible": 2,
+      "h_overflow": false
+    },
+    "narrow": {
+      "visible": true,
+      "items_visible": 2,
+      "h_overflow": false
+    },
+    "wide-again": {
+      "visible": true,
+      "items_visible": 2,
+      "h_overflow": false
+    }
+  },
+  "public_mobile_final": {
+    "present": true,
+    "visible": true,
+    "display": "grid",
+    "items": 4,
+    "items_visible": 4,
+    "video_tiles": 2,
+    "box": {
+      "x": 16,
+      "y": 233.59375,
+      "width": 358,
+      "height": 238
+    },
+    "h_overflow": false
+  },
+  "mobile_uploaded_video": {
+    "found": true,
+    "readyState": 4,
+    "currentTime": 1.399984,
+    "paused": false,
+    "duration": 2,
+    "src": "65052f1593c2474cac240932801004e3.mp4"
+  }
+}
